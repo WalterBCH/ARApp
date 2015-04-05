@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wbch.testapp.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/arActivity"
+        android:icon="@drawable/reality"
+        android:orderInCategory="200"
+        android:title="@string/augmented"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mapActivity"
+        android:icon="@drawable/globe"
+        android:orderInCategory="300"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+</menu>

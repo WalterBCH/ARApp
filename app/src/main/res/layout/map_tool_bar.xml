@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/layout_rnd"
+    android:elevation="4dp"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    
+    <ImageView
+        android:id="@+id/buscar"
+        android:clickable="true"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/effect_search_pressed"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoText"
+        android:layout_marginLeft="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="48dp"
+        android:gravity="bottom"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/fontColorMenu"
+        style="@style/AutoCompleteTextViewAppTheme"
+        android:dropDownVerticalOffset="6dp"
+        android:imeActionLabel="Buscar"
+        android:imeOptions="actionDone"
+        android:hint="Ingrese ciudad"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:clickable="true"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/effect_location_pressed"/>
+
+</RelativeLayout>
